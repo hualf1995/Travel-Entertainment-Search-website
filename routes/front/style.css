@@ -1,0 +1,167 @@
+
+body {
+    padding-top: 5px;
+}
+#search {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(248,248,248);
+    border: 2px solid rgb(227,227,227);
+    border-radius: 10px;
+}
+
+#title {
+    text-align: center;
+}
+#form {
+    width: 80%;
+    margin: 0 auto;
+}
+.red {
+    color: red;
+}
+
+#reset {
+    border: #c7c5c5 solid 1px;
+    background-color: white;
+}
+
+#reset:hover {
+    background-color: rgb(248,248,248);
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*#favoriteButton {*/
+    /*background-color: white;*/
+/*}*/
+
+.resultTable {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.button {
+    border: #c7c5c5 solid 1px;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: rgb(248,248,248);
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    display: block;
+    z-index: 2;
+}
+
+@media (max-width: 576px) {
+    .card-columns {
+        column-count: 1 !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 4 !important;
+    }
+    #direction {
+        margin-top: 32px !important;
+    }
+}
+
+.noRecord {
+    width:100%;
+    margin: 0 auto;
+    background-color: rgb(253,243,209);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.noRecord p {
+    color: rgb(155,131,81);
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+#icon {
+    float: left;
+    width: 40px;
+    height: 38px;
+    border: #c7c5c5 solid 1px;
+    border-radius: .25rem;
+    margin-bottom: 1%;
+}
+/*fade in/out*/
+.toggle{
+     -webkit-transition: linear 1s;
+     -moz-transition: linear 1s;
+     -ms-transition: linear 1s;
+     -o-transition: linear 1s;
+     transition: linear 1s;
+ }
+.toggle.ng-enter{
+    opacity: 0;
+}
+.toggle.ng-enter-active{
+    opacity: 1;
+}
+.toggle.ng-leave{
+    opacity: 1;
+}
+.toggle.ng-leave-active{
+    opacity: 0;
+}
+/*slide in / out*/
+.animate-switch{
+    transition: 0.5s all linear !important;
+    -webkit-transition:0.5s all linear !important;
+    height: 100%;
+}
+
+.animate-switch2{
+    transition: 0.5s all linear !important;
+    -webkit-transition:0.5s all linear !important;
+    height: 100%;
+}
+.animate-switch2.ng-hide{
+    transform: translateX(-100%);
+}
+
+.animate-switch.ng-hide{
+    transform: translateX(100%);
+}
+
+/*star*/
+i.fa {
+    color: rgb(221,116,45) !important;
+}
+
+
+i.hhh {
+    color: rgb(221,116,45) !important;
+}
+
+
+
+
+.stars-outer2 {
+    display: inline-block;
+    position: relative;
+    font-family: FontAwesome;
+}
+
+.stars-inner2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}

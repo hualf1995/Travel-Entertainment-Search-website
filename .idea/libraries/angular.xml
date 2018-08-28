@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="angular" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$USER_HOME$/Downloads/angular.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/angular.js" />
+    </CLASSES>
+    <DOCUMENTATION>
+      <root url="http://angularjs.org" />
+    </DOCUMENTATION>
+    <SOURCES />
+  </library>
+</component>
